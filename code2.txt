@@ -7,8 +7,7 @@ void main()
 	char fname[20];
 	char str;
     printf("\n\n Read an existing file :\n");
-	printf("------------------------------\n"); 
-	printf(" Input the filename to be opened : ");
+	printf("--------------/n")
 	scanf("%s",fname);
 	fptr = fopen (fname, "r");  
 	if (fptr == NULL)
